@@ -4,7 +4,9 @@
 # User-specific stuff
 **/.idea/**
 **/.idea/**/workspace.xml
+**/.idea/**/workspace.iml
 .idea/**/tasks.xml
+.idea/**/tasks.iml
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
