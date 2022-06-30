@@ -3,8 +3,8 @@
 
 # User-specific stuff
 **/.idea/**
-**/.idea/**/workspace.xml
-**/.idea/**/workspace.iml
+**/.idea/**/*.xml
+**/.idea/**/*.iml
 .idea/**/tasks.xml
 .idea/**/tasks.iml
 .idea/**/usage.statistics.xml
