@@ -29,7 +29,6 @@ public class OrderAnostBinarySearch {
                 start = mid + 1;
             }
         }
-
         return -1;
     }
 }
