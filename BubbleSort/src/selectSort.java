@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class selectSort {
     public static void main(String[] args) {
-        int [] array = {5, 4, 3, 2, 1};
+        int [] array = {5, 4, 3, 1, 2};
         selection(array);
         System.out.println(Arrays.toString(array));
 
@@ -15,15 +15,19 @@ public class selectSort {
         }
     }
     static void swap (int[] arr, int first, int second){
+        //this method swaps the maximum number with the last index element;
         int temp = arr[first];
         arr[first] = arr[second];
         arr[second] = temp;
     }
 
-    private static int getMaxIndex(int[] arr, int start, int last) {
+    static int getMaxIndex(int[] arr, int start, int end){
+        //this method finds the maximum number index and returns it.
     int max = start;
-    for(int j = start; j <= last; j++){
-        max = j;
+    for(int j = start; j <= end; j++){
+        if(arr[max] < arr[j]){
+            max = j;
+        }
     }
     return max;}
 }
