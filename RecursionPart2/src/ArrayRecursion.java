@@ -9,7 +9,5 @@ public class ArrayRecursion {
             return true;
         }
         return (arr[index] < arr[index+1]) && sort(arr, index+1);
-
     }
-
 }
